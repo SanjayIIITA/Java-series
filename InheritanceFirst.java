@@ -54,6 +54,19 @@ class Hosteller extends Student{
     }
 }
 
+
+class EnginneringStudent extends Student{
+    String college = "IIIT A";
+
+    void display(){
+        System.out.println(super.id + " " + super.name + " " + this.college + ", " + super.college);
+    }
+
+    void attendLabs(){
+        System.out.println("Engineering student attends labs");
+    }
+}
+
 // Super keyword is used to refer to the parent class.
 // It is used to differentiate between parent class and child class members.
 // It is used to call the parent class constructor. It is used to call the parent class method.
@@ -91,15 +104,3 @@ class Hosteller extends Student{
 //     B   C
 //      \ /
 //       D
-
-class EnginneringStudent extends Student{
-    String college = "IIIT A";
-
-    void display(){
-        System.out.println(super.id + " " + super.name + " " + this.college + ", " + super.college);
-    }
-
-    void attendLabs(){
-        System.out.println("Engineering student attends labs");
-    }
-}
