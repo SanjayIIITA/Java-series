@@ -95,5 +95,6 @@ class BankAccount{
 As a helper class for any outer class
 To group classes that are only used in one place
 Builder design pattern
+if you want to have a static methods inside nested static class
 Req/res DTO
 */
